@@ -1,0 +1,23 @@
+/*
+		fetch('http://localhost:3000/character')
+		.then(res => res.json())
+		.then(data => obj = data)
+		.then(() => document.getElementById("c-char-up-img").src = obj[0].img)
+		.then(() => BaseWeapon = JSON.stringify(obj[0].img));
+		*/
+		/*
+		var BaseWeapon = new promise((resolve, reject) => {
+			setTimeout(() => {
+				resolve('foo');
+			}
+		})
+		*/
+
+		fetch('http://localhost:3000/character')
+		.then(response => response.json())
+		.then(data => obj = data)
+ 		.then(() => {
+			document.getElementById("c-char-up-img").src = obj[0].img;
+			i = obj[0].BaseWeapon;
+			
+		});

@@ -1,0 +1,650 @@
+body {
+	background-color: #111;
+	color: #eee;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.c-f{
+	clear: both;
+}
+.dec-a {
+	text-decoration: none;
+	color: #eee;
+}
+
+/* ---------- MENU ---------- */
+#menu {
+	height: 40px;
+	border-bottom: 1px solid #052;
+	box-shadow: 0px 5px 15px #052;
+	background-color: #222;
+}
+
+/* Home Button */
+#icon-home-frame {
+	float: left;
+	height: 40px;
+	width: 135px;
+	float: left;
+	padding: 0 10px;
+	border-right: 1px dotted #420;
+}
+.icon-home {
+	float: left;
+	width: 43px;
+	margin: 5px 0;
+	padding-right: 5px;
+	font-size: 190%;
+}
+#icon-home-title {
+	float: left;
+	width: 73px;
+	height: 36px;
+	margin: 3px 0 1px;
+	font-weight: 600;
+	font-size: 24px;
+}
+#icon-home-frame:hover {
+	background-color: #333;
+	cursor: pointer;
+}
+#icon-home-frame:active {
+	background-color: #444;
+}
+
+/* User Button */
+#user-button {
+	height: 40px;
+	width: 90px;
+	float: right;
+	font-weight: 600;
+	font-size: 24px;
+	padding: 0 15px;
+	border-left: 1px dotted #420;
+}
+#user-button:hover {
+	background-color: #333;
+	cursor: pointer;
+}
+#user-button:active {
+	background-color: #444;
+}
+#menu {
+	top: 0;
+	position: sticky;
+}
+
+/* ---------- Kontent ---------- */
+#content {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	min-height: 85%;
+}
+
+/* === Panel logowania === */
+#con-log-frame {
+	width: 1000px;
+	height: 347px;
+}
+.con-log-con {
+	margin: 10px 0 10px 40px;
+}
+.intext-log {
+	margin-top: 5px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #444;
+	padding: 10px 10px;
+	width: 400px;
+	background-color: #111;
+	font-size: 32px;
+	color: #eee;
+}
+.con-log-error-frame {
+	float: none;
+	width: 400;
+	height: 20px;
+	padding: 10px;
+}
+.con-log-error {
+	font-size: 12px;
+}
+
+.intext-log:focus {
+	background-color: #222;
+}
+.intext-log:-webkit-autofill, .intext-log:-webkit-autofill:focus, .intext-log:-webkit-autofill:focus{
+	border: 1px solid green;
+	-webkit-box-shadow: 0 0 0 1000px #222 inset !important;
+	-webkit-text-fill-color: #eee;
+} 
+input:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0 1000px #222 inset !important;
+	-webkit-text-fill-color: #eee;
+}
+
+/* Log In */
+#con-log {
+	margin: 30px 10px 15px 10px;
+	width: 478px;
+	height: 300px;
+	float: left;
+	border: 1px solid #084;
+}
+#con-log-title {
+	padding: 10px;
+	text-align: center;
+	font-size: 24px;
+	background-color: #042;
+	border-bottom: 1px dotted #084;
+}
+.sub-log-in {
+	margin-left: 150px;
+	outline: none;
+	color: #eee;
+	border: none;
+	background-color: #084;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.sub-log-in:hover {
+	background-color: #0a6;
+}
+.sub-log-in:active {
+	background-color: #0c8;
+}
+
+/* Register */
+#con-reg {
+	margin: 30px 0 15px 10px;
+	width: 478px;
+	height: 300px;
+	float: left;
+	border: 1px solid #840;
+}
+#con-reg-title {
+	padding: 10px;
+	text-align: center;
+	font-size: 24px;
+	background-color: #420;
+	border-bottom: 1px dotted #840;
+}
+.sub-log-reg {
+	margin-left: 150px;
+	outline: none;
+	color: #eee;
+	border: none;
+	background-color: #840;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.sub-log-reg:hover {
+	background-color: #a60;
+}
+.sub-log-reg:active {
+	background-color: #c80;
+}
+
+/* === Informacje === */
+#con-inf {
+	margin-top: 30px;
+	border-top: 1px dotted #084;
+	padding-top: 20px;
+}
+#con-inf-title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 32px;
+}
+.con-inf-obj {
+	float: none;
+	margin-top: 80px;
+	width: 1000px;
+	height: 300px;
+}
+
+.con-inf-obj-img {
+	float: left;
+	width: 300px;
+	height: 300px;
+}
+.con-inf-obj-img-obj {
+	float: none;
+	width: 300px;
+	height: 300px;
+}
+
+.con-inf-obj-text-frame {
+	float: left;
+	width: 690px;
+	height: 300px;
+	margin: 0 5px 0 5px;
+}
+.con-inf-obj-text-title {
+	margin-top: 10px;
+	border-top: 1px dotted #042;
+	padding-top: 5px;
+	float: none;
+	text-align: center;
+	font-weight: 300;
+	font-size: 24px;
+	font-style: italic;
+}
+.con-inf-obj-text-text {
+	float: none;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+	font-style: italic;
+}
+
+/* === Zalogowany === */
+#cona-title {
+	margin-top: 50px;
+	border-top: 1px solid #084;
+	padding-top: 20px;
+	font-size: 24px;
+}
+.cona-app {
+	margin: 50px 50px 0;
+	width: 900px;
+	height: 200px;
+}
+.cona-app:hover {
+	background-color: #222;
+}
+.cona-app:active {
+	background-color: #333;
+}
+.cona-app-inframe {
+	height: 200px;
+	width: 900;
+	border: 1px solid #840;
+}
+.cona-app-img-frame {
+	float: left;
+	margin: 5px;
+	width: 290px;
+	height: 190px;
+}
+.cona-app-img-obj {
+	float: none;
+	width: 290px;
+	height: 190px;
+}
+.cona-app-text-frame {
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	border-left: 1px dotted #840;
+	width: 579px;
+	height: 180px;
+}
+.cona-app-text-title {
+	width: 579px;
+	height: 35px;
+	text-align: center;
+	font-size: 24px;
+}
+.cona-app-text-text {
+	width: 569px;
+	height: 135px;
+	margin: 5px;
+}
+
+/* ---------- Wishe ---------- */
+
+#w-title {
+	margin-top: 50px;
+	padding: 30px 0 20px;
+	border-top: 1px solid #840;
+	font-size: 24px;
+}
+
+#w-menu {
+	width: 632px;
+	margin: 0 0 10px 184px;
+	border: 1px solid #240;
+}
+.w-menu-button {
+	float: left;
+	width: 150px;
+	height: 25px;
+	text-align: center;
+	padding: 3px;
+	border: 1px solid #111;
+	background-color: #420;
+}
+
+.w-menu-button:hover {
+	background-color: #630;
+}
+.w-menu-button:active {
+	background-color: #840;
+}
+
+#w-tab {
+	margin-left: 103px;
+	width: 794px;
+}
+.w-tab-tab {
+	float: left;
+	height: 27px;
+	border: 1px solid #222;
+	text-align: center;
+	text-shadow: 2px 2px 1px #000;
+	padding-top: 3px;
+}
+.w-tab-tab-title {
+	background-color: #333;
+}
+.w-tab-tab5 {
+	background-color: #a80;
+}
+.w-tab-tab4 {
+	background-color: #808;
+}
+.w-tab-tab3-1 {
+	background-color: #444;
+}
+.w-tab-tab3-2 {
+	background-color: #555;
+}
+.w-tab-tab-error {
+	background-color: #a00;
+}
+
+.w-tab-tab-none {
+	height: 400px;
+	text-align: center;
+	padding-top: 100;
+}
+
+/* hover */
+.w-tab-tab5:hover {
+	background-color: #ca2;
+}
+.w-tab-tab4:hover {
+	background-color: #a2a;
+}
+.w-tab-tab3-1:hover {
+	background-color: #777;
+}
+.w-tab-tab3-2:hover {
+	background-color: #777;
+}
+
+/* sticky */
+.w-tab-tab-title {
+	top: 40;
+	position: sticky;
+}
+
+/* ---------- Calculator ---------- */
+
+/* === Char Card === */
+
+#c-char {
+	float:left;
+	margin-top: 50px;
+	width: 400px;
+	height: 1400px;
+	border-right: 1px dashed #333;
+}
+
+/* up */
+#c-char-up {
+	float: none;
+	width: 400px;
+	height: 116px;
+}
+
+#c-char-up-img-frame {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	padding: 0 5px 5px 0;
+	border-right: 1px dashed #666;
+	border-bottom: 1px dashed #666;
+}
+#c-char-up-img {
+	width: 100px;
+	height: 100px;
+}
+
+#c-char-up-stat-frame {
+	float: left;
+	width: 274px;
+	height: 106px;
+	margin: 5px;
+}
+.c-char-up-stat-ele {
+	float: none;
+	width: 264px;
+	height: 25px;
+	padding: 5px;
+}
+.c-char-up-stat-ele-name {
+	float: left;
+	width: 70px;
+	border-right: 1px dotted #444;
+	margin-right: 10px;
+	color: #888;
+	font-style: italic;
+}
+#c-char-up-stat-ele-name-select {
+	display: block;
+	float: none;
+	width: 70px;
+	height: 25px;
+	background-color: #333;
+	border-color: #444;
+	color: #eee;
+}
+#c-char-up-stat-ele-name-val {
+	float: left;
+}
+#c-char-up-stat-ele-level-select {
+	display: block;
+	float: none;
+	width: 70px;
+	height: 25px;
+	background-color: #333;
+	border-color: #444;
+	color: #eee;
+}
+
+/* eq */
+#c-char-eq {
+	float: none;
+	width: 400px;
+	height: 200px;
+	margin: 5px 0;
+	border-bottom: 1px dotted #222;
+}
+#c-char-eq-skill-frame {
+	float: none;
+	width: 400px;
+}
+.c-char-eq-name {
+	width: 400px;
+	height: 25px;
+	color: #888;
+	font-style: italic;
+}
+.c-char-eq-skill-ele {
+	float: left;
+	width: 117px;
+	height: 25px;
+	padding: 5px;
+	margin-right: 5px;
+	border-right: 1px solid #666;
+}
+.c-char-eq-skill-ele:nth-child(4) {
+	border: none;
+}
+.c-char-eq-skill-ele-name {
+	float: left;
+	width: 45px;
+	margin-right: 4px;
+	padding-right: 4px;
+	border-right: 1px dotted #333;
+	color: #888;
+	font-style: italic;
+}
+.c-char-eq-skill-ele-val {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 25px;
+	background-color: #333;
+	border:none;
+	color: #eee;
+}
+#c-char-eq-weap-select, #c-ene-select-name {
+	margin: 5px 0;
+	display: block;
+	float: none;
+	width: 250px;
+	height: 25px;
+	background-color: #333;
+	border-color: #444;
+	color: #eee;
+}
+.c-char-eq-weap-stat {
+	
+}
+#c-char-eq-weap-select-level {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 25px;
+	background-color: #333;
+	border-color: #444;
+	color: #eee;
+}
+
+/* Stat */
+.c-char-stat {
+}
+.c-char-empty {
+	width: 400px;
+	height: 25px;
+}
+
+.c-char-stat-frame {
+	width: 400px;
+	height: 25px;
+}
+
+.c-char-stat-frame-name-bas, .c-char-stat-frame-splite {
+	float: left;
+	width: 50px;
+	color: #666;
+	text-align: center;
+}
+.c-char-stat-frame-value-bas {
+	float: left;
+	width: 50px;
+	text-align: right;
+}
+#c-char-stat_hp-other, #c-char-stat_atk-other, #c-char-stat_def-other {
+	color: #084;
+}
+
+.c-char-stat-frame-name {
+	float: left;
+	color: #666;
+	width: 200px;
+}
+.c-char-stat-frame-value {
+	float: left;
+	width: 160px;
+	padding: 0 20px;
+	text-align: right;
+}
+
+#c-char-stat_Pyro-DMG, #c-char-stat_Pyro-RES {
+	color: #ec7d33;
+}
+#c-char-stat_Hydro-DMG, #c-char-stat_Hydro-RES {
+	color: #4542ff;
+}
+#c-char-stat_Dendro-DMG, #c-char-stat_Dendro-RES {
+	color: #00aa11;
+}
+#c-char-stat_Electro-DMG, #c-char-stat_Electro-RES {
+	color: #ff52ff;
+}
+#c-char-stat_Anemo-DMG, #c-char-stat_Anemo-RES {
+	color: #00ffaa;
+}
+#c-char-stat_Cyro-DMG, #c-char-stat_Cryo-RES {
+	color: #80d0ff;
+}
+#c-char-stat_Geo-DMG, #c-char-stat_Geo-RES {
+	color: #ffc558;
+}
+
+/* === Right Card === */
+#c-r {
+	float:left;
+	margin-top: 50px;
+	padding-left: 10px;
+	width: 400px;
+	height: 1400px;
+}
+
+/* Artefakty */
+#c-r-art {
+	float:none;
+	width: 400px;
+	height: 400px;
+	border: 1px solid #333;
+}
+
+/* Obrazenia */
+.c-r-out-frame {
+	width: 400px;
+	height: 25px;
+}
+.c-r-out-name {
+	float: left;
+	color: #666;
+	width: 150px;
+}
+.c-r-out-val-std, .c-r-out-val-crit {
+	float: left;
+	width: 105px;
+	padding: 0 10px;
+	text-align: right;
+}
+.c-r-out-val-crit {
+	color: #a00;
+}
+
+/* Enemy */
+#c-ene-check {
+	float:left;
+}
+#c-ene-select-level {
+	float:left;
+}
+
+/* ---------- Footer ---------- */
+
+#footer {
+	margin-top: 30px;
+	padding: 5px;
+	text-align: center;
+	background-color: #222;
+}

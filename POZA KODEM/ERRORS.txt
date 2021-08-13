@@ -1,0 +1,3 @@
+ELOG_01 = "Nazwa użytkownika lub hasło jest nieprawidłowe."
+ELOG_02 = "Błąd, taki użytkownik jest już zajęty."
+ELOG_03 = "Konto zostało utworzone pomyślnie."
